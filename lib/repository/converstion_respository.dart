@@ -8,7 +8,7 @@ class ConverstionRespository {
   Future<CurrencyResultModel> fetchapiresult(
       String countryA, String countryB, int total) async {
     String exchangeapilink =
-        'https://v6.exchangerate-api.com/v6/2785e2830d0cf6f5473f2780/pair/${countryA}/${countryB}/${total}';
+        'https://v6.exchangerate-api.com/v6/2785e2830d0cf6f5473f278/pair/${countryA}/${countryB}/${total}';
     print(countryA);
     print(countryB);
     print(total);
